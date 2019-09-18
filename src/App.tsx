@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { TemplateComponent } from './components/template/template';
+import { FlipCardComponent } from './components/flip-card/flip-card';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FlipCardComponent
+        imgSrc="/common/img/landscape.jpg"
+        description="To keep moving forward againt the friction, we overcome the ______ friction."
+      />
+      <TemplateComponent />
     </div>
   );
 }

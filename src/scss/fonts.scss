@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "AvenirNextCondensed-Bold";
+    src: url("https://cdn.geniusteacher.in/common/fonts/avenirnextcondensed-bold/avenirnextcondensed-bold-webfont.woff2") format('woff2'),
+    url("https://cdn.geniusteacher.in/common/fonts/avenirnextcondensed-bold/avenirnextcondensed-bold-webfont.woff") format("woff"),
+    url("https://cdn.geniusteacher.in/common/fonts/avenirnextcondensed-bold/avenirnextcondensed-bold-webfont.ttf") format("truetype"),
+    url("https://cdn.geniusteacher.in/common/fonts/avenirnextcondensed-bold/avenirnextcondensed-bold-webfont.eot") format("embedded-opentype");
+}
+
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: url("https://cdn.geniusteacher.in/common/fonts/proximanova-regular/proximanova-regular-webfont.woff2") format('woff2'),
+    url("https://cdn.geniusteacher.in/common/fonts/proximanova-regular/proximanova-regular-webfont.woff") format("woff"),
+    url("https://cdn.geniusteacher.in/common/fonts/proximanova-regular/proximanova-regular-webfont.ttf") format("truetype"),
+    url("https://cdn.geniusteacher.in/common/fonts/proximanova-regular/proximanova-regular-webfont.eot") format("embedded-opentype");
+}
+
+@font-face {
+    font-family: "ProximaNova-RegularCondensed";
+    src: url("https://cdn.geniusteacher.in/common/fonts/proximanovacond-regular/proximanovacond-regular-webfont.woff2") format('woff2'),
+    url("https://cdn.geniusteacher.in/common/fonts/proximanovacond-regular/proximanovacond-regular-webfont.woff") format("woff"),
+    url("https://cdn.geniusteacher.in/common/fonts/proximanovacond-regular/proximanovacond-regular-webfont.ttf") format("truetype"),
+    url("https://cdn.geniusteacher.in/common/fonts/proximanovacond-regular/proximanovacond-regular-webfont.eot") format("embedded-opentype");
+}
+
+@font-face {
+    font-family: "ProximaNova-Light";
+    src: url("https://cdn.geniusteacher.in/common/fonts/proximanova-light-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "AvenirNextCondensed-Regular";
+    src: url("https://cdn.geniusteacher.in/common/fonts/AvenirNextCondensed-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("https://cdn.geniusteacher.in/common/fonts/roboto-regular/roboto-regular-webfont.woff2") format('woff2'),
+    url("https://cdn.geniusteacher.in/common/fonts/roboto-regular/roboto-regular-webfont.woff") format("woff"),
+    url("https://cdn.geniusteacher.in/common/fonts/roboto-regular/roboto-regular-webfont.ttf") format("truetype"),
+    url("https://cdn.geniusteacher.in/common/fonts/roboto-regular/roboto-regular-webfont.eot") format("embedded-opentype");
+}
+
+$proximaRegular: 'ProximaNova-Regular', sans-serif;
+$proximaRegularCondensed: 'ProximaNova-RegularCondensed', sans-serif;
+$avenirBold: 'AvenirNextCondensed-Bold', sans-serif;
+$robotoRegular: 'Roboto-Regular', sans-serif;
+
+.disabled {
+    opacity: 0.5;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-grey {
+    color: #5a5a5a;
+}
+
+.font-green{
+    color: #3fb00f
+}
+
+.font-yellow{
+    color: #fedf33
+}
+
+.font-red{
+    color: red;
+}
