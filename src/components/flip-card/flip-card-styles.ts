@@ -14,7 +14,7 @@ export const flipCardStyles = createStyles({
     },
     flipCard: {
         "height": "max-content",
-        "maxWidth": "400px",
+        "max-width": "400px",
         "perspective": "1000px",
         margin: 0,
         width: "100%",

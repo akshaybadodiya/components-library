@@ -1,0 +1,17 @@
+.cardStack__card {
+    width: 100%,
+    padding: 0,
+    display: flex,
+    border: 1px, solid, grey,
+    
+}
+
+.cardStack__img {
+
+}
+.cardStack__description{
+    
+}
+.cardStack__button {
+
+}

@@ -10,7 +10,6 @@ export interface TemplateFieldProps {
 export interface TemplateDispatchProps {
 
 }
-
 export interface TemplateProps extends TemplateFieldProps, TemplateDispatchProps {
 
 }
@@ -23,92 +22,20 @@ interface _TemplateState {
 export class _TemplateComponent extends React.Component<_TemplateProps, _TemplateState> {
     render() {
         const { classes } = this.props
-        return <Grid container spacing={16} className={classes.template}>
-            <Grid item xs={12} className={classes.template__gridItem}>
+        return <Grid container spacing={24} className={classes.template}>
+            <Grid item xs={12} sm={6} md={4} lg={3} className={classes.template__gridItem}>
                 xs-12
             </Grid>
-            <Grid item xs={6} className={classes.template__gridItem}>
+            <Grid item xs={12} sm={6} md={4} lg={3} className={classes.template__gridItem}>
                 xs-6
             </Grid>
-            <Grid item xs={6} className={classes.template__gridItem}>
+            <Grid item xs={12} sm={6} md={4} lg={3} className={classes.template__gridItem}>
                 xs-6
             </Grid>
-            <Grid item xs={4} className={classes.template__gridItem}>
+            <Grid item xs={12} sm={6} md={4} lg={3} className={classes.template__gridItem}>
                 xs-4
             </Grid>
-            <Grid item xs={4} className={classes.template__gridItem}>
-                xs-4
-            </Grid>
-            <Grid item xs={4} className={classes.template__gridItem}>
-                xs-4
-            </Grid>
-            <Grid item xs={3} className={classes.template__gridItem}>
-                xs-3
-            </Grid>
-            <Grid item xs={3} className={classes.template__gridItem}>
-                xs-3
-            </Grid>
-            <Grid item xs={3} className={classes.template__gridItem}>
-                xs-3
-            </Grid>
-            <Grid item xs={3} className={classes.template__gridItem}>
-                xs-3
-            </Grid>
-            <Grid item xs={2} className={classes.template__gridItem}>
-                xs-2
-            </Grid>
-            <Grid item xs={2} className={classes.template__gridItem}>
-                xs-2
-            </Grid>
-            <Grid item xs={2} className={classes.template__gridItem}>
-                xs-2
-            </Grid>
-            <Grid item xs={2} className={classes.template__gridItem}>
-                xs-2
-            </Grid>
-            <Grid item xs={2} className={classes.template__gridItem}>
-                xs-2
-            </Grid>
-            <Grid item xs={2} className={classes.template__gridItem}>
-                xs-2
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-            <Grid item xs={1} className={classes.template__gridItem}>
-                xs-1
-            </Grid>
-        </Grid>
+                   </Grid>
     }
 }
 
