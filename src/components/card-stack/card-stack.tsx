@@ -30,9 +30,9 @@ export class _CardStackComponent extends React.Component<
           Card Stack
         </Grid>
         <Grid item xs={12} className={classes.cardStack__gridItem}>
-          <Grid container spacing={24} className={classes.cardStack}>
-            {[0, 1, 2, 3].map(value => (
-            <Grid key={value} item xs={12} sm={6} md={4} lg={3} >
+          <Grid container spacing={32} className={classes.cardStack}>
+            {[0, 1, 2, 3, 4, 5].map(value => (
+            <Grid key={value} item xs={12} sm={6} md={4} lg={3} className={classes.cardStack__gridItemSpacing}>
               <Grid container spacing={12} className={classes.cardStack__card}>
                 <Grid item xs={12} className={classes.cardStack__img}>
                   <img
@@ -47,9 +47,12 @@ export class _CardStackComponent extends React.Component<
                   </p>
                 </Grid>
                 <Grid item xs={12}>
-                    <Grid container spacing={12}>
-                        <Grid item xs={4}>
-                        <button className={classes.cardStack__button}>Share</button>
+                    <Grid container spacing={12} className={classes.cardStack__buttonContainer}>
+                        <Grid item xs={6}>
+                        <button className={classes.cardStack__button}>SHARE</button>                        
+                        </Grid>
+                        <Grid item xs={6}>
+                        <button className={classes.cardStack__button}>LEARN MORE</button>                        
                         </Grid>
                     </Grid>
                 </Grid>
