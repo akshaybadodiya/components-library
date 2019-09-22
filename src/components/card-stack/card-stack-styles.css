@@ -1,17 +1,16 @@
 .cardStack__card {
-    width: 100%,
-    padding: 0,
-    display: flex,
-    border: 1px, solid, grey,
-    
+  width: 100%;
+  padding: 0;
+  display: flex;
+  border: 1px solid, grey;
 }
 
 .cardStack__img {
-
+  width: 100%;
 }
-.cardStack__description{
-    
+.cardStack__description {
+  width: 100%;
 }
 .cardStack__button {
-
+  width: 100%;
 }

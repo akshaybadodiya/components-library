@@ -50,6 +50,7 @@ export const cardStackStyles = createStyles({
   cardStack__card: {
     width: "100%",
     padding: "0",
+    margin: 0,
     display: "flex",
     border: "1px, solid, grey",
     "box-shadow": "0 4px 8px 0 rgba(0,0,0,0.2)",
@@ -58,7 +59,9 @@ export const cardStackStyles = createStyles({
   },
   cardStack__img: {
     padding: "0 !important",
-    "border-radius": "4px"
+    "border-radius": "4px",
+
+    overflow: "hidden"
   },
   cardStack__cardHeading: {
     "text-align": "left",
@@ -74,6 +77,7 @@ export const cardStackStyles = createStyles({
   cardStack__button: {
     ...proximaRegular,
     padding: "inherit",
+    width: "100%",
     border: "2px solid #0088D5",
     "border-radius": "4px",
     "background-color": "#FFF",
@@ -85,10 +89,17 @@ export const cardStackStyles = createStyles({
   },
   cardStack__imgStyles: {
     width: "100%",
-    "border-radius": "4px 4px 0 0"
+    "border-radius": "4px 4px 0 0",
+    transition: "0.4s",
+    "&:hover": {
+      transform: "scale(1.1)"
+    }
   },
   cardStack__buttonContainer: {
     padding: "inherit"
+  },
+  cardStack__buttonSpecial: {
+    backgroundColor: "Red"
   }
 });
 export type CardStackClassKey = keyof typeof cardStackStyles;
