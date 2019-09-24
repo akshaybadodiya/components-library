@@ -103,16 +103,7 @@ export class _CardStackComponent extends React.Component<
                           <button className={classes.cardStack__button}>
                             LEARN MORE
                           </button>
-                        </Grid>
-                        <Grid item xs={6}>
-                          <Button
-                            variant="contained"
-                            color="primary"
-                            className={classes.cardStack__buttonSpecial}
-                          >
-                            Hello World
-                          </Button>{" "}
-                        </Grid>
+                        </Grid>                        
                       </Grid>
                     </Grid>
                   </Grid>

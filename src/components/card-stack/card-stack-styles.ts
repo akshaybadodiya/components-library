@@ -59,7 +59,7 @@ export const cardStackStyles = createStyles({
   },
   cardStack__img: {
     padding: "0 !important",
-    "border-radius": "4px",
+    "border-radius": "4px 4px 0 0",
 
     overflow: "hidden"
   },
@@ -84,15 +84,18 @@ export const cardStackStyles = createStyles({
     "min-width": "100px",
     color: "#0088D5",
     "&:hover": {
-      "background-color": "rgba(127, 209, 255, 0.1)"
+      "background-color": "rgba(127, 209, 255, 0.1)",
+      cursor: "pointer" 
     }
   },
   cardStack__imgStyles: {
     width: "100%",
-    "border-radius": "4px 4px 0 0",
+    height: "100%",
+    // "border-radius": "4px 4px 0 0",
     transition: "0.4s",
     "&:hover": {
-      transform: "scale(1.1)"
+      transform: "scale(1.1)",
+      cursor: "pointer"
     }
   },
   cardStack__buttonContainer: {

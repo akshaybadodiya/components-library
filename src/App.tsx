@@ -5,7 +5,7 @@ import { FlipCardComponent } from "./components/flip-card/flip-card";
 import { CardComponent } from "./components/card/card";
 import { CardStackComponent } from "./components/card-stack/card-stack";
 import { cardListDummy } from "./data/static-data";
-import { LabelBottomNavigation } from "./components/bottom-navigation/bottom-navigation";
+import LabelBottomNavigation from "./components/bottom-navigation/bottom-navigation";
 
 const App: React.FC = () => {
   return (
